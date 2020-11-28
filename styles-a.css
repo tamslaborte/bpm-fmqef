@@ -1,0 +1,673 @@
+@charset "UTF-8";
+* {
+margin: 0px; 
+padding: 0px; 
+box-sizing: border-box; 
+}
+
+body {
+margin: 0px;
+padding: 0px; 
+background-image:url("boljoonPhotos/header.JPG");
+background-repeat: no-repeat; 
+background-size: cover; 
+height:5in;
+}
+
+nav {
+display: flex; 
+justify-content: space-around; 
+align-items: center; 
+min-height: 8vh; 
+font-family: 'EB Garamond', serif;
+}
+
+.nav-links {
+display: flex; 
+justify-content: space-around; 
+text-align: right; 
+padding-top: 108px; 
+width: 250%
+}
+
+.nav-links li {
+list-style: none; 
+}
+
+.nav-links a {
+color: #f9f9f9; 
+text-decoration: none; 
+text-transform: uppercase; 
+letter-spacing: 0.5px; 
+font-size: 16px; 
+}
+
+.container {
+position: absolute; 
+margin: 32px; 
+width: auto; 
+}
+
+.nav-links a::after {
+content: ""; 
+width: 0%;
+height: 1px; 
+display: block; 
+background-color: #f9f9f9;
+margin-bottom: 10px; 
+}
+
+.nav-links a:hover::after {
+width: 100%;
+transition: all .4s; 
+}
+
+.logo {
+position: absolute;
+top: 40px; 
+left: 55px; 
+width: 230px; 
+weight: 100px; 
+background-image: url("../../Desktop/boljoon/boljoon logo_logo white.png");
+}
+
+.square {
+    background-color: #f9f9f9;
+    height: 4.5in;
+    width: 5in;
+    float: right;
+    margin-top: 160px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #27211F;
+    left: 50px;
+    margin-left: 60px;
+    margin-top: 70px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.h1 {
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: eb-garamond;
+    font-size: 40px;
+    font-style: normal;
+    width: 1in;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+.h4 {
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family: eb-garamond;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: lighter;
+    margin-right: 60px;
+	letter-spacing: 1px;
+}
+
+.intro {
+    margin-top: 900px;
+    font-family: eb-garamond;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: lighter;
+    margin-right: 60px;
+    width: 8in;
+    height: 2in;
+    text-align: center;
+    margin-left: 160px;
+	letter-spacing: 1px
+}
+
+.head {
+    background-image: url("../Desktop/boljoon/boljoonPhotos/gov gwen.jpg");
+    width: 3in;
+    height: 3in;
+    background-size: 3in 3in;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -31px;
+}
+
+.head1 {
+    font-family: eb-garamond;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: lighter;
+    /* [disabled]margin-top: 258px; */
+    margin-left: 247px;
+}
+
+.head2 {
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+    width: 3in;
+    height: 3in;
+    background-size: 3in 3in;
+    background-repeat: no-repeat;
+    margin-top: -319px;
+    margin-left: 560px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.head2a {
+    font-family: eb-garamond;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: lighter;
+    margin-top: 12px;
+    margin-left: 560px;
+}
+
+
+.head3 {
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+    width: 3in;
+    height: 3in;
+    background-size: 3in 3in;
+    background-repeat: no-repeat;
+    margin-top: -330px;
+    margin-left: 870px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.head3a {
+    font-family: eb-garamond;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: lighter;
+    margin-top: 12px;
+    margin-left: 870px;
+}
+
+.black {
+    background-color: #27211f;
+    background-size: cover;
+    height: 2.5in;
+    margin-top: 200px;
+}
+
+.lagang {
+    background-image: url("../Desktop/boljoon/boljoonPhotos/Lagang and other decorative jars.JPG");
+    width: 5in;
+    height: 4in;
+    background-repeat: no-repeat;
+    background-size: 4in 3in;
+    margin-left: 200px;
+    margin-top: -368px;
+}
+
+.text2 {
+    font-family: eb-garamond;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: lighter;
+    margin-right: 60px;
+    width: 4in;
+    height: 2in;
+    text-align: left;
+    margin-left: 700px;
+    color: #F9F9F9;
+    padding-top: 70px;
+	letter-spacing: 1px;
+}
+
+.lagangtext {
+    font-family: eb-garamond;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #F9F9F9;
+    margin-left: 200px;
+    margin-top: -32px;
+
+}
+
+.general {
+	margin-left: 250px;
+    margin-top: 60px;
+    font-family: eb-garamond;
+    font-size: 35px;
+    font-style: lighter;
+    width: 2in;
+    line-height: 40px;
+    font-weight: 100;
+	color: #27211f;
+}
+
+.text3 {
+	font-family: eb-garamond;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: lighter;
+    margin-right: 60px;
+    width: 4in;
+    height: 2in;
+    text-align: left;
+    margin-left: 250px;
+    color: #27211f;
+    padding-top: 30px;
+	letter-spacing: 1px;
+}
+
+.text4 {
+    font-family: eb-garamond;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: lighter;
+    margin-right: 60px;
+    width: 4in;
+    height: 2in;
+    text-align: left;
+    margin-left: 250px;
+    color: #27211f;
+    padding-top: -5px;
+    letter-spacing: 1px;
+    margin-top: -30px;
+}
+
+.circle{
+    background-image: url("../Desktop/boljoon/boljoonPhotos/circle.png");
+    height: 4in;
+    width: 4in;
+    background-repeat: no-repeat;
+    margin-left: 1041px;
+    background-size: 4in 4in;
+    margin-top: 120px;
+}
+
+.costume {
+    background-image: url("../Desktop/boljoon/boljoonPhotos/clothes.png");
+    height: 6in;
+    width: 6in;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -632px;
+    margin-left: -192px;
+}
+
+.costume1 {
+    font-family: eb-garamond;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #27211f;
+    margin-top: 80px;
+    margin-left: 1100px;
+    text-align: center;
+}
+
+.carousel {
+    width: 8in;
+    height: 3.5in;
+    margin-left: 360px;
+    margin-top: 80px;
+}
+
+.carousel-cell1 {
+    width: 28%;
+    height: 400px;
+    margin-right: 10px;
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+	background-size: contain;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell2 {
+ 	 width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+	background-size: contain;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell3 {
+  	width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+	background-size: contain;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell4 {
+  	width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+	background-size: contain;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell5 {
+  	width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+	background-size: contain;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell6 {
+  	width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+	background-size: contain;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell7 {
+  	width: 28%;
+    height: 500px;
+    margin-right: 10px;
+    background-image: url("../Desktop/boljoon/boljoonPhotos/image holder.png");
+	background-size: contain;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell.is-selected {
+    background: #ED2;
+    border-color: #EBA02F;
+}
+
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.name {
+    font-family: eb-garamond;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 100;
+    color: #27211f;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 220px;
+}
+
+.name2 {
+	font-family: eb-garamond;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 10px;
+    font-weight:bolder;
+    color: #27211f;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;	
+}
+
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled:focus { outline: none; }
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+          tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+
+
+.flickity-button {
+  position: absolute;
+  background: hsla(0, 0%, 100%, 0.75);
+  border: none;
+  color: #eba02f;
+}
+
+.flickity-button:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.flickity-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #19F;
+}
+
+.flickity-button:active {
+  opacity: 0.6;
+}
+
+.flickity-button:disabled {
+  opacity: 0.3;
+  cursor: auto;
+
+  pointer-events: none;
+}
+
+.flickity-button-icon {
+  fill: currentColor;
+}
+
+
+.flickity-prev-next-button {
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transform: translateY(-50%);
+}
+
+.flickity-prev-next-button.previous { left: 10px; }
+.flickity-prev-next-button.next { right: 10px; }
+
+.flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 10px;
+}
+.flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 10px;
+}
+
+.flickity-prev-next-button .flickity-button-icon {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.flickity-rtl .flickity-page-dots { direction: rtl; }
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 37px;
+    background: #eba02f;
+    border-radius: 50%;
+    opacity: 0.25;
+    cursor: pointer;
+}
+
+.flickity-page-dots .dot.is-selected {
+  opacity: 1;
+}
+
+
+.footer{
+	height: 60%;
+	width: inherit;
+	display: block;
+	overflow: hidden;
+	padding: 70px 0;
+	box-sizing: border-box;
+	background: #27211F;
+	margin-top: auto;
+	position: relative
+}
+
+.inner_footer{
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+	height: 100%;	
+}
+
+.inner_footer .logo_container {
+	width: 35%;
+	float: left;
+	height: 100%;
+	display: block;	
+}
+
+.inner_footer .logo_container img{
+	top: 40px; 
+	left: 55px; 
+	width: 230px; 
+	height: auto; 
+}
+
+.inner_footer .footer_second{
+	width: calc(33.333333337% - 20px);
+	margin-right: 2px;
+	float: left;
+	height: 100%;
+	
+}
+
+.inner_footer .footer_second:last-child{
+	margin-right: 0;	
+}
+
+.inner_footer .footer_second h1{
+	font-family: "eb-garamond";
+	font-size: 22px;
+	color: #F9F9F9;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;	
+}
+
+.inner_footer .footer_second h2{
+	font-family: "eb-garamond";
+	font-size: 22px;
+	color: #F9F9F9;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;	
+	margin-right: 100px;
+}
+
+.footer-links a:hover::after {
+width: 30%;
+transition: all .8s; 
+}
+
+.footer-links a::after {
+content: ""; 
+width: 0%;
+height: 1px; 
+display: block; 
+background-color: #f9f9f9;
+margin-bottom: 0px; 
+}
+
+.inner_footer .footer_second a{
+	font-family: "montserrat";
+	font-size: 16px;
+	font-weight: 200%;
+	color: #F9F9F9;
+	display: block;
+	width: 100%;
+	padding-bottom: 5px;	
+}
